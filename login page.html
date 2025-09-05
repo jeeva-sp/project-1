@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Login.css">
+    <title>Login page</title>
+</head>
+<body class="body">
+    <div class="box">
+
+        <h4 class="hlogin">Login</h4>
+
+        <div class="login">
+        <label class="logintxt" for="login" >Login</label>
+        <input type="email" class="loginint" id="login" value="mr.jeeva111@gmail.com">
+        </div>
+
+        <div class="password">
+        <label for="password" class="passtxt">Password</label>
+        <input type="password" class="passint" id="password" value="9345540866@">
+        </div>
+
+        <div>
+            <button type="submit" class="button" onclick="update()">Login</button>
+        </div>
+
+    </div>
+</body>
+<script>
+    //get the login value
+    //get the passwordvalue
+    var one=document.getElementById("login")
+    var twe=document.getElementById("password")
+//call the function in button
+    function update()
+    {
+
+       console.log(one)
+       console.log(twe)
+      
+    }
+</script>
+</html>

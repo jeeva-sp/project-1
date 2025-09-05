@@ -1,0 +1,83 @@
+.body{
+    margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffffff, #03e7f3);
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.box{
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    border: 2px;
+    border: solid;
+    border-radius: 25px;
+    border-color: black;
+    background: linear-gradient(to top,#03e7f3,#ffffff);
+    opacity: 1;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.hlogin{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.login{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 35px;
+}
+.loginint{
+    width: 200px;
+    height: 25px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.logintxt{
+    font-size:20px;
+    font:bold;
+
+}
+
+.passtxt{
+    font-size:20px;
+    font:bold;
+}
+
+.passint{
+     width: 200px;
+    height: 25px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button{
+    background-color: rgba(21, 21, 251, 0.703);
+    border: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    text-shadow: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;
+
+}
